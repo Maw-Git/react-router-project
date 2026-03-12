@@ -31,6 +31,7 @@ const router = createBrowserRouter(
       </Route>
       <Route path="authors/:name" element={<Author />} />
       <Route path="profile" element={<Profile />}>
+
         <Route path="edit" element={<EditProfileForm />} />
       </Route>
     </Route>
